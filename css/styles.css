@@ -51,3 +51,70 @@ body {
     text-shadow: 3px 3px 5px #5e0c98;
 }
 
+.card-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 95vh;
+}
+.card {
+    background-color: #141227;
+    margin: 15px;
+    max-width: 21rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1.5%;
+    overflow: hidden;
+    transform: 3s;
+}
+.card-purple:hover {
+    border: 1px solid #2D2857;
+    box-shadow: 0px 0px 30px 7px rgba(56, 0, 97, 0.85);
+}
+.card-blue:hover {
+    border: 1px solid #2D2857;
+    box-shadow: 0px 0px 30px 7px rgba(5, 0, 151, 0.85);
+}
+.card h2 {
+    padding: 5%;
+}
+.card figure {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.card figure img {
+    width: 20rem;
+    border-radius: 3%;
+}
+.card figure figcaption {
+    padding: 2%;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(268.31deg, #380061 36.69%, #20018B 110.11%);
+    border-radius: 15px 15px 0px 0px;
+}
+.footer-title {
+    padding: 3%;
+    background: radial-gradient(46.96% 6762.16% at 79.39% 51.35%, #4573C0 0%, #9175D9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.nav-footer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-link img {
+    max-width: 5rem;
+}
