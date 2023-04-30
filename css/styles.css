@@ -6,16 +6,25 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     color:aliceblue;
     font-family: "montserrat", sans-serif;
     font-weight: 500;
 }
+.bg-index{
+    background-color: black;
+}
+.bg-pages{
+    background: linear-gradient(268.31deg, #380061 36.69%, #20018B 110.11%);
+}
+
+/* <------------------------------------ menu responsivo ------------------------------------> */
 .cabecalho {
     /* background-color: rgb(46, 122, 122); */
     box-shadow: 0 3px 10px black;
 }
 .nav-bar {
+    background: black;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
@@ -43,14 +52,23 @@ body {
 }
 .nav-link {
     text-decoration: none;
-    color: aliceblue ;
-    font-size: 1.2rem;
+    color: aliceblue;
+    font-size: 1.15rem;
     font-weight: 400;
 }
 .nav-link:hover {
-    text-shadow: 3px 3px 5px #5e0c98;
+    text-shadow: 6px 4px 5px #5e0c98;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+
+
+/* <------------------------------------ cards index.html ------------------------------------> */
 .card-list{
     display: flex;
     align-items: center;
@@ -93,12 +111,21 @@ body {
     padding: 2%;
 }
 
+
+
+/* <------------------------------------ footer ------------------------------------> */
 footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(268.31deg, #380061 36.69%, #20018B 110.11%);
+    /* background: linear-gradient(268.31deg, #380061 36.69%, #20018B 110.11%); */
     border-radius: 15px 15px 0px 0px;
+}
+.footer-bg-gradient {
+    background: linear-gradient(268.31deg, #380061 36.69%, #20018B 110.11%);
+}
+.rodape {
+    background-color: #141227;
 }
 .footer-title {
     padding: 3%;
@@ -107,8 +134,8 @@ footer {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 .nav-footer {
     align-items: center;
@@ -116,5 +143,39 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
     flex-direction: row;
 }
 .footer-link img {
-    max-width: 5rem;
+    max-width: 4.5rem;
+}
+
+
+    
+/* BREAKPOINTS */
+@media screen and (max-width: 730px){
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .open {
+        display: block;
+    }
 }

@@ -4,42 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Games</title>
 
 </head>
-<body>
+<body class="bg-pages">
 
     <header class="cabecalho">
-        <img src="../img/icone.png" alt="Ícone"> 
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="./games.html">Game</a>
-            <a href="./mobile.html">Mobile</a>
-            <a href="./tecnologia.html">Tecnologia</a>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../img/icone.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item" ><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item" ><a class="nav-link" href="./games.html">Games</a></li>
+                    <li class="nav-item" ><a class="nav-link" href="./mobile.html">Mobile</a></li>
+                    <li class="nav-item" ><a class="nav-link" href="./tecnologia.html">Tecnologia</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()" ><img class="icon" src="../img/icon-hamburguer.png" alt=""></button>
+            </div>
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item" ><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item" ><a class="nav-link" href="./games.html">Games</a></li>
+                <li class="nav-item" ><a class="nav-link" href="./mobile.html">Mobile</a></li>
+                <li class="nav-item" ><a class="nav-link" href="./tecnologia.html">Tecnologia</a></li>
+            </ul>
+        </div>
     </header>
 
-    <h2 class="tit-sec">Games</h2>
-
+    
     <section class="conteudo">
-        <div>
+        <div class="titulo-sec">
+            <h2>Games</h2>
+        </div>
+
+        <div class="img-section">
             <img src="../img/img-game.png" alt="Foto Game">
             <p>Dado branco e preto de seis lados</p>
         </div>
+
+        <div class="paragrafo">
+            <p>Segundo a Pesquisa Game Brasil 2022, no ano passado, 78% dos brasileiros declararam jogar algum game. Isso significa que temos muitas oportunidades daqui para frente. Se você trabalha em comunicação, é bom estar atento aos números e comportamentos de quem respira esse universo.</p>
+        </div>
+
     </section>
 
-    <p>Segundo a Pesquisa Game Brasil 2022, no ano passado, 78% dos brasileiros declararam jogar algum game. Isso significa que temos muitas oportunidades daqui para frente. Se você trabalha em comunicação, é bom estar atento aos números e comportamentos de quem respira esse universo.</p>
 
     <footer class="rodape">
-        <h2>Acompanhe a gente em nossas redes!</h2>
-        <nav>
-            <a href="#"><img src="../img/twitter.png" alt="Logo Twitter"></a>
-            <a href="#"><img src="../img/github.png" alt="Logo Github"></a>
-            <a href="#"><img src="../img/facebook.png" alt="Logo Facebook"></a>
+        <div class="footer-title">
+            <h2>Acompanhe a gente em nossas redes sociais!</h2>
+        </div>
+        
+        <nav class="nav-list nav-footer">
+            <a class="footer-link" href=""><img src="../img/github.png" alt=""></a>
+            <a class="footer-link" href=""><img src="../img/facebook.png" alt=""></a>
+            <a class="footer-link" href=""><img src="../img/twitter.png" alt=""></a>
         </nav>
-    </footer> 
+    </footer>
     
+    <script src="../js/script.js"></script>
+
 </body>
 </html>

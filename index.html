@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>WoW Site</title>
 </head>
-<body>
+<body class="bg-index">
     <header class="cabecalho">
         <nav class="nav-bar">
             <div class="logo">
@@ -22,7 +22,21 @@
                     <li class="nav-item" ><a class="nav-link" href="./pages/tecnologia.html">Tecnologia</a></li>
                 </ul>
             </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()" ><img class="icon" src="./img/icon-hamburguer.png" alt=""></button>
+            </div>
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item" ><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item" ><a class="nav-link" href="./pages/games.html">Games</a></li>
+                <li class="nav-item" ><a class="nav-link" href="./pages/mobile.html">Mobile</a></li>
+                <li class="nav-item" ><a class="nav-link" href="./pages/tecnologia.html">Tecnologia</a></li>
+            </ul>
+        </div>
+
     </header>
 
     <section class="card-list">
@@ -51,7 +65,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer-bg-gradient">
         <div class="footer-title">
             <h2>Acompanhe a gente em nossas redes sociais!</h2>
         </div>
@@ -62,5 +76,9 @@
             <a class="footer-link" href=""><img src="./img/twitter.png" alt=""></a>
         </nav>
     </footer>
+
+
+    <script src="./js/script.js"></script>
+
 </body>
 </html>
