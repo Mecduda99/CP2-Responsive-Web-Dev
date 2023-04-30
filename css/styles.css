@@ -216,6 +216,24 @@ footer {
     .open {
         display: block;
     }
+
+    .card-list{
+        display: contents;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+    }
+    .card {
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+    }
+
     .conteudo-sec {
     display: contents;
     }
