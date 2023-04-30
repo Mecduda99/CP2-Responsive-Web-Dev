@@ -16,4 +16,7 @@ Criação de site de navegação responsivo com o tema voltado para tecnologia.
 ## 🔗 Wireframe no Figma
 https://www.figma.com/file/QOzQ8MtdEZI4HEKc0OsHBo/CP2--RWD?type=design&node-id=0%3A1&t=jCiSREDARaATaFxb-1
 
+## 🔗 GithHub Pages
+https://mecduda99.github.io/CP2-responsive-web-dev.github.io/
+
 
