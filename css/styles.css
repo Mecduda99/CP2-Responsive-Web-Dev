@@ -279,7 +279,7 @@ footer {
     }
 
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1200px) {
     .nav-bar{
         padding: 1.5rem 4rem;
     }
