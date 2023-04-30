@@ -235,6 +235,7 @@ footer {
     }
     .card img {
         max-height: 200px;
+        max-width: 98%;
     }
 
     .conteudo-sec {
@@ -301,7 +302,7 @@ footer {
 
     }
     .card img {
-        max-height: 200px;
+        max-width: 98%;
     }
 
     .conteudo-sec {
@@ -360,13 +361,13 @@ footer {
     .card {
         align-items: center;
         justify-content: center;
-        width: 100%;
+        /* width: 100%; */
         margin-top: 10%;
         margin-bottom: 10%;
 
     }
     .card img {
-        max-height: 200px;
+        max-width: 98%;
     }
 
     .conteudo-sec {
